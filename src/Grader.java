@@ -1,4 +1,3 @@
-
 public class Grader {
 	private double score;
 	Grader(double score){
@@ -11,7 +10,6 @@ public class Grader {
 		else if(this.score >= 80 && this.score <= 90) return 'A';
 		else if(this.score >= 90 && this.score <= 95) return 'E';
 		else if(this.score == 100 ) return 'O';
-
 		return '$';
 	}
 }
